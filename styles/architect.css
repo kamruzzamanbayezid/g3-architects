@@ -4,6 +4,84 @@
       box-sizing: border-box;
 }
 
-body{ 
+body {
       font-family: 'Poppins', sans-serif;
 }
+
+/* common $$ shared styles */
+.primary-background {
+      background-color: #FFF4E7;
+}
+
+.architect-titles {
+      font-size: 2rem;
+      font-weight: 700;
+}
+
+.architect-descriptions {
+      color: #727272;
+}
+
+.primary-btn {
+      color: #FFF;
+      background-color: #FF900E;
+      padding: 20px 25px;
+      border: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-top: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+}
+
+/* Header section styles */
+header {
+      padding: 20px 0;
+}
+
+/* nav section */
+nav {
+      width: 75%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+nav ul {
+      display: flex;
+
+}
+
+nav ul li {
+      list-style: none;
+}
+
+nav ul li a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-left: 25px;
+      color: #424242;
+}
+
+/* banner section */
+.banner-container {
+      text-align: center;
+      margin-top: 40px;
+}
+
+.banner-text {
+      width: 45%;
+      margin: 0 auto;
+}
+
+.banner-text h2 {
+      font-size: 3rem;
+      color: #131313;
+      font-weight: 700;
+      margin-bottom: 5px;
+}
+
+.banner-text h2 p {}
+
+.banner-image {}

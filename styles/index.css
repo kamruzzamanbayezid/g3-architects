@@ -139,14 +139,14 @@ nav ul li a {
 /* Features Section */
 .features-container {
       max-width: 1440px;
-      margin: 0 auto 100px;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
 }
 
 .features-content {
-      width: 48%;
+      width: 45%;
 }
 
 .features-content .features-main-title {
@@ -156,12 +156,12 @@ nav ul li a {
 }
 
 .features-image {
-      width: 48%;
+      width: 45%;
 }
 
 .features-image img {
       width: 100%;
-      margin-left: 80px;
+      /* margin-left: 80px; */
 }
 
 .features-text-title {
@@ -188,6 +188,7 @@ nav ul li a {
       border-radius: 10px;
       position: relative;
       top: -100px;
+      left: -80px;
       line-height: 60px;
       padding: 10px 0;
 
@@ -205,6 +206,39 @@ nav ul li a {
       margin: 0;
 }
 
+/* SOme facts section */
+.some-facts-section-container {
+      max-width: 1440px;
+      margin: 0 auto 100px;
+}
+
+.some-facts-content {
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.facts-boxes {
+      text-align: center;
+      border: 1px solid #FF900E;
+      width: 240px;
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.facts-boxes>h4 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      color: #424242;
+}
+
+.facts-boxes>p {
+      font-size: 1.3rem;
+      color: #424242;
+}
 
 /* Responsive design */
 
@@ -260,19 +294,23 @@ nav ul li a {
             width: 100%;
       }
 
-      .features-image img {
-            margin-left: 0;
-      }
-
       .features-badge {
-            max-width: 250px;
-            max-height: 150px;
+            max-width: 230px;
+            max-height: 130px;
             top: -80px;
+            left: 0;
             line-height: 40px;
       }
 
       .features-badge h3 {
-            font-size: 3rem;
+            font-size: 2.5rem;
+      }
+
+      /* some facts section */
+      .some-facts-content {
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
       }
 
 }
@@ -337,18 +375,23 @@ nav ul li a {
             width: 100%;
       }
 
-      .features-image img {
-            margin-left: 0;
-      }
-
       .features-badge {
             max-width: 250px;
             max-height: 150px;
             top: -80px;
+            left: 0;
             line-height: 40px;
       }
 
       .features-badge h3 {
             font-size: 3rem;
+      }
+
+      /* some facts section */
+      .some-facts-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
       }
 }

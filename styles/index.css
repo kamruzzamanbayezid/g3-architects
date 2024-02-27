@@ -240,6 +240,21 @@ nav ul li a {
       color: #424242;
 }
 
+/* Our sponsors section */
+.our-sponsors-section-container {
+      max-width: 1440px;
+      margin: 0 auto 100px;
+      text-align: center;
+}
+
+.our-sponsors {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+}
+
+
+
 /* Responsive design */
 
 /* for mobile device */
@@ -312,6 +327,17 @@ nav ul li a {
             gap: 20px;
             align-items: center;
       }
+
+
+      /* Our sponsors section */
+      .our-sponsors {
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+            /* display: flex;
+            justify-content: space-between; */
+      }
+
 
 }
 
@@ -393,5 +419,15 @@ nav ul li a {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             justify-items: center;
+      }
+
+      
+      /* Our sponsors section */
+      .our-sponsors {
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+            /* display: flex;
+            justify-content: space-between; */
       }
 }
